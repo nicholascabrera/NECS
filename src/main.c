@@ -3,6 +3,7 @@
 //
 #include <stdio.h>
 #include "utils.h"
+#include "queue.h"
 
 int main(void) {
     printf("Hello, World!\n");

@@ -6,6 +6,14 @@
 
 #include <stdint.h>
 
-typedef uint32_t Entity;
+typedef uint32_t entity_t;
+constexpr uint32_t MAX_ENTITIES = 256;
+
+typedef uint8_t component_type_t;
+constexpr uint32_t MAX_COMPONENTS = 32;
+
+typedef struct {
+    unsigned int s : MAX_COMPONENTS;
+} signature_t;
 
 #endif //NECS_UTILS_H
