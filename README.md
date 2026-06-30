@@ -1,2 +1,2 @@
 # Nico's ECS - NECS
-This is just Austin Morlan's C++ ECS, ported to C23 for my own personal research. Not actively maintained.
+My own personal entity component system. Developed in C and based heavily off of Austin Morlan's ECS. Read more at his blog post [here]([url](https://austinmorlan.com/posts/entity_component_system/)).
